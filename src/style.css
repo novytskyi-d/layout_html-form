@@ -1,19 +1,12 @@
-form {
-  margin: 8px 2px;
+.fieldset-style {
+  margin-bottom: 20px;
 }
 
 .form-field {
-  margin: 10px 0;
+  margin-bottom: 10px;
+  display: block;
 }
 
-:nth-child(2) {
-  margin-top: 0;
-}
-
-.fieldset-style {
-  margin: 0 0 20px;
-}
-
-:last-child {
+.form-field:last-child {
   margin-bottom: 0;
 }
